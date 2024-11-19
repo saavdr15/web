@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Etiquetas Andrés</title>
+</head>
+<body>
+    <header>
+    <img width="auto" src="./img/web-design.jpg">
+        <h1>
+            Diseño web
+        </h1>
+    </header>
+    <nav>
+        <a href="./pag_principal.html">Inicio</a> &nbsp; | &nbsp; <a href="./pag_etiquetas.html">HTML y CSS</a> &nbsp; | &nbsp; <a href="./pag_gestores.html">Gestores de contenido</a>
+    </nav>
+    <main>
+        <h2>Etiquetas de html</h2>
+            <ul>
+                <li>Los elementos cabecera. Van del 1 al 6.</li>
+                <li>Los párrafos. Se indican con la etiqueta &lt;p&gt;</li>
+                <li>La etiqueta &lt;hr&gt; permite crear una línea horizontal.</li>
+                <li>Los enlaces se crean con la etiqueta a que requiere el atributo href.</li>
+                <li>Las listas:</li>
+                    <ul>
+                        <li>Las ol son ordenadas y muestran números.</li>
+                        <li>las ul no están ordenadas y muestran puntos.</li>
+                    </ul>
+                <li>Las tablas permiten estructurar información. Esto se puede ver en la <a href target="_self">sección de aerogeneradores.</a></li>
+                <li>Las etiquetas input y select permiten crear formularios para que el usuario introduzca información.</li>
+            </ul>
+        <h2>Aerogeneradores en Galicia</h2>
+
+        <table border="1px">
+            <tr>
+                <th>Tipo</th>
+                <th>Provincia</th>
+                <th>Ayuntamiento</th>
+                <th>Número</th>
+            </tr>
+
+            <tr>
+                <td rowspan="6">Aerogenerador X1</td>
+                <td rowspan="3">Lugo</td>
+                <td>Abadin</td>
+                <td>198</td>
+            </tr>
+
+            <tr>
+                <td>Alfoz</td>
+                <td>35</td>
+            </tr>   
+
+            <tr>
+                <td>Antas de Ulla</td>
+                <td>2</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="2">Pontevedra</td>
+                <td>Agolada</td>
+                <td>11</td>
+            </tr>
+
+            <tr>
+                <td>Vilagarcía de Aurosa</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>A Coruña</td>
+                <td>Aranga</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Totales</td>
+                <td colspan="2">263</td>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend>Aerogeneradores</legend>
+            <form>
+                <label>Número: <textarea rows="1"></textarea></label><br><br>
+                <input type="submit" value="Enviar" name="input">
+            <input type="reset" value="Restablecer" name="input">
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <br>Andrés Gómez Saavedra <br>
+        <p>&copy; Copyright 2024. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

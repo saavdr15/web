@@ -1,0 +1,20 @@
+1. 
+Es necesario abrir el puerto 80 del servidor y permitir las peticiones HTML. Sin poder recibir peticiones HTML, no va a hacer la función de servidor, mostrar la página web.
+
+sudo apt-get update (opcional pero recomendable)
+sudo apt-get install apache2 
+
+2 y 3. 
+Raíz: /var/www/html/
+Ruta absoluta carpeta contenedora: /var/www/html/EXAMEN20241115/
+Ruta pag_principal.html: /var/www/html/EXAMEN20241115/pag_principal.html
+Ruta pag_etiquetas.html: /var/www/html/EXAMEN20241115/pag_etiquetas.html
+Ruta pag_gestores.html: /var/www/html/EXAMEN20241115/pag_gestores.html
+Ruta web-design.jpg: /var/www/html/EXAMEN20241115/img/web-design.jpg
+Ruta wordpress.png: /var/www/html/EXAMEN20241115/img/wordpress.png
+
+4. 
+Hay que crear el dominio con noip para que podamos usar el dominio. El proceso se indica en la foto en esta carpeta llamada ddns.png.
+Es simplemente escribir la IP donde la pide la página, escribir nuestro nombre de host deseado, escoger el dominio y cuando accedamos a andres.ddns.net nos va a redirigir a la IP del servidor.
+
+Claro está que habría que hacer una de estas tres cosas: o usar un index.html para que, al entrar al dominio, te mande directamente a un .html, configurar el servidor para que el archivo por defecto sea, como debería ser en este caso, pag_principal.html o escribir junto al enlace la ruta del .html al que queremos acceder, que sería andres.ddns.net/EXAMEN20241115/pag_principal.html (pag_principal por ejemplo)
